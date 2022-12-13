@@ -1,0 +1,37 @@
+.container{
+     
+    
+}
+.center{
+    
+
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+}
+#dayStatus{
+    display: inline;
+    color: blue;
+}
+#clock{
+    display: inline;
+    color: red;
+}
+#currentDay{
+    
+    color: blue;
+    opacity: 0.9;
+    margin-bottom: 0px;
+}
+.inner{
+    border: 2px solid rgb(238, 224, 224);
+    padding: 45px;
+    /* background:black; */
+    background-image: linear-gradient(to right, #f1b1b1 , #dee882);
+
+    border-radius: 9px;
+    
+}
